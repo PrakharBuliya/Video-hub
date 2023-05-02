@@ -37,7 +37,6 @@ const Upload = () => {
           </HStack>
         </form>
       </VStack>
-      ;
     </Container>
   );
 };
