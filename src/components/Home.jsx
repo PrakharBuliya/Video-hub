@@ -82,7 +82,7 @@ const MyCarousel = () => {
     <Carousel
       autoPlay
       infiniteLoop
-      interval={1000}
+      interval={2000}
       showStatus={false}
       showThumbs={false}
       showArrows={true}
@@ -110,7 +110,7 @@ const MyCarousel = () => {
 
       <Box w="full" h={'100vh'}>
         <Image src={img4} h="full" w={'full'} objectFit={'cover'} />
-        <Heading bgColor={'whiteAlpha.500'} color={'black'} {...headingOptions}>
+        <Heading bgColor={'whiteAlpha.00'} color={'black'} {...headingOptions}>
           Dive Deep into The Future
         </Heading>
       </Box>

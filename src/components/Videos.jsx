@@ -25,7 +25,7 @@ const Videos = () => {
           }}
         ></video>
         <VStack alignItems={'flex-start'} p={'8'} w={'full'} overflowY={'auto'}>
-          <Heading>Nature Video</Heading>
+          <Heading>Nature Movie</Heading>
           <Text>
             This is a Sample Video for testing and demo. This is called
             Description.
@@ -46,7 +46,7 @@ const Videos = () => {
             colorScheme={'purple'}
             onClick={() => setVideoSrc(item)}
           >
-            Lecture {index + 1}
+            Video {index + 1}
           </Button>
         ))}
       </VStack>

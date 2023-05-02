@@ -32,10 +32,12 @@ const Footer = () => {
             />
 
             <Button
+              marginTop={'2'}
               p={'0'}
               colorScheme={'purple'}
               variant={'ghost'}
               borderRadius={'0 20px 20px 0'}
+              alignItems={'center'}
             >
               <AiOutlineSend size={'20'} />
             </Button>
@@ -47,30 +49,42 @@ const Footer = () => {
           borderLeft={['none', '1px solid white']}
           borderRight={['none', '1px solid white']}
         >
-          <Heading textTransform={'uppercase'} textAlign={'center'}>
+          <Heading
+            marginTop={'5'}
+            textTransform={'uppercase'}
+            alignItems={'center'}
+            textAlign={'center'}
+          >
             VIDEO HUB
           </Heading>
-          <Text>All rights received</Text>
+          <Text fontSize={'sm'} marginTop={'2'}>
+            All rights reserved
+          </Text>
         </VStack>
 
         <VStack w={'full'}>
           <Heading
+            marginTop={'10'}
             size={'md'}
             textTransform={'uppercase'}
-            textAlign={['center', 'left']}
+            textAlign={'center'}
           >
             Social Media
           </Heading>
 
-          <Button variant={'link'} colorScheme={'whiteAlpha'}>
+          <Button
+            variant={'link'}
+            colorScheme={'whiteAlpha.100'}
+            marginTop={'2'}
+          >
             <a href="https://twitter.com/Prakhar50115657">Twitter</a>
           </Button>
 
-          <Button variant={'link'} colorScheme={'whiteAlpha'}>
+          <Button variant={'link'} colorScheme={'whiteAlpha.100'}>
             <a href="https://github.com/PrakharBuliya">Github</a>
           </Button>
 
-          <Button variant={'link'} colorScheme={'whiteAlpha'}>
+          <Button variant={'link'} colorScheme={'whiteAlpha.100'}>
             <a href="https://www.linkedin.com/in/prakhar-buliya-559354192/">
               LinkedIn
             </a>

@@ -21,10 +21,17 @@ const Upload = () => {
                   color: 'purple',
                   backgroundColor: 'white',
                   cursor: 'pointer',
+                  display: 'flex',
+                  textAlign: 'flex-center',
                 },
               }}
             />
-            <Button colorScheme={'purple'} type={'submit'}>
+            <Button
+              w={'full'}
+              textAlign={'center'}
+              colorScheme={'purple'}
+              type={'submit'}
+            >
               Upload Video
             </Button>
           </HStack>
